@@ -3,7 +3,7 @@ import java.security.MessageDigest
 import java.io.FileInputStream
 import java.security.KeyStore
 
-def jksFile = new File("dummy.jks")
+def jksFile = new File("C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\testing-library-sslpin\\dummy.jks")
 def jksPassword = "dummy@123"
 
 pipeline {
